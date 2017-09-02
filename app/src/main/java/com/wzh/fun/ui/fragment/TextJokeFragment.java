@@ -45,7 +45,7 @@ public class TextJokeFragment extends BaseFragment implements BaseFragment.OnRel
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
         setContentView(R.layout.fragment_text);
-        setTitle("段子大全");
+        setTitle("地图");
         initView();
         initData();
         return getContentView() ;

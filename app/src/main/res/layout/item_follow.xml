@@ -21,6 +21,6 @@
         android:gravity="center|left"
         android:text="name"
         android:paddingLeft="10dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/avoscloud_blue"
         android:textSize="@dimen/font_middle" />
 </LinearLayout>

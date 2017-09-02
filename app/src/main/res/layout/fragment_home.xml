@@ -10,7 +10,7 @@
         android:id="@id/titleBar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height"
-        android:background="@color/colorAccent"
+        android:background="@color/avoscloud_blue"
         android:orientation="vertical">
 
         <LinearLayout
@@ -86,7 +86,7 @@
             <RadioButton
                 android:id="@+id/item1"
                 android:layout_width="wrap_content"
-                android:text="推荐段子"
+                android:text="推荐消息"
                 android:button="@null"
                 android:gravity="center"
                 android:paddingTop="8dp"
@@ -95,7 +95,7 @@
                 android:paddingRight="16dp"
                 android:includeFontPadding="false"
                 android:checked="true"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/avoscloud_blue"
                 android:background="@drawable/right_open_selector"
                 android:textSize="@dimen/font_smalll"
                 android:layout_height="wrap_content" />
@@ -103,7 +103,7 @@
             <RadioButton
                 android:id="@+id/item2"
                 android:layout_width="wrap_content"
-                android:text="最热趣图"
+                android:text="最热消息"
                 android:button="@null"
                 android:gravity="center"
                 android:paddingTop="8dp"

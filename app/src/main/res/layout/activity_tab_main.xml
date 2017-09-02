@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         app:backgroundColor="@color/white"
         app:textColor="@color/font_color1"
-        app:textSelectColor="@color/colorAccent"
+        app:textSelectColor="@color/avoscloud_blue"
         android:layout_height="match_parent">
 
     </com.wzh.fun.view.tab.BottomTabBar>

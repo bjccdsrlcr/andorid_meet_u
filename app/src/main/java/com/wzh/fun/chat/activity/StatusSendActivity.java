@@ -62,7 +62,7 @@ public class StatusSendActivity extends BaseActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.status_send_layout);
-        setTitle("发布段子");
+        setTitle("发布消息");
         setBackView();
         initView();
     }

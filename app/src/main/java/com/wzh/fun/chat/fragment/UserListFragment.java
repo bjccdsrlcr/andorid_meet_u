@@ -45,7 +45,7 @@ public class UserListFragment extends BaseFragment implements BaseFragment.OnRel
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
         setContentView(R.layout.fragment_user_list);
-        setTitle("发现段子手");
+        setTitle("发现用户");
         setBackView();
         initView();
         return getContentView();

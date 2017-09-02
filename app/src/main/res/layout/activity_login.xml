@@ -173,7 +173,7 @@
                     android:gravity="center"
                     android:padding="10dp"
                     android:text="去注册"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/avoscloud_blue"
                     android:textSize="@dimen/font_smalll"
                     android:textStyle="bold" />
             </LinearLayout>

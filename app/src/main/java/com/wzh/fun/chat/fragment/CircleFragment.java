@@ -58,7 +58,7 @@ public class CircleFragment extends BaseFragment implements View.OnClickListener
         super.onCreateView(inflater, container, savedInstanceState);
         setContentView(R.layout.fragment_main_circle);
         EventBus.getDefault().register(this);
-        setTitle("段子圈");
+        setTitle("圈子");
         initView();
         return getContentView();
     }

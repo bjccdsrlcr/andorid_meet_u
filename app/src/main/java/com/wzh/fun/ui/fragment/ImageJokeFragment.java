@@ -49,7 +49,7 @@ public class ImageJokeFragment extends BaseFragment implements BaseFragment.OnRe
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
         setContentView(R.layout.fragment_image);
-        setTitle("内涵趣图");
+        setTitle("附近图片");
         initView();
         initData();
         return getContentView() ;

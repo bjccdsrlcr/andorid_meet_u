@@ -3,7 +3,7 @@
     android:id="@id/titleBar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/toolbar_height"
-    android:background="@color/colorAccent"
+    android:background="@color/avoscloud_blue"
     android:orientation="vertical">
 
     <LinearLayout

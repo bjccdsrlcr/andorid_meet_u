@@ -43,11 +43,11 @@ public class MainActivity extends BaseActivity implements BottomTabBar.OnSelectL
         tb.setManager(manager);
         tb.setOnSelectListener(this);
         bars = new ArrayList<>();
-        bars.add(new BarEntity("主页",R.drawable.ic_home_select,R.drawable.ic_home_unselect));
-        bars.add(new BarEntity("段子",R.drawable.ic_textjoke_select,R.drawable.ic_textjoke_unselect));
-        bars.add(new BarEntity("趣图",R.drawable.ic_imagejoke_select,R.drawable.ic_imagejoke_unselect));
-        bars.add(new BarEntity("圈子",R.drawable.ic_dt_select,R.drawable.ic_dt_unselect));
-        bars.add(new BarEntity("个人",R.drawable.ic_my_select,R.drawable.ic_my_unselect));
+        bars.add(new BarEntity("主页",R.drawable.main_active,R.drawable.main));
+        bars.add(new BarEntity("地图",R.drawable.map_active,R.drawable.map));
+        bars.add(new BarEntity("消息",R.drawable.message_active,R.drawable.message));
+        bars.add(new BarEntity("圈子",R.drawable.cirtle_active,R.drawable.circle));
+        bars.add(new BarEntity("个人",R.drawable.person_active,R.drawable.person));
         tb.setBars(bars);
     }
 
